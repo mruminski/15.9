@@ -56,7 +56,7 @@ class User extends React.Component {
   render() {
     return (
       <div className='user'>
-        <img className='user__avatar' src={this.props.user.avatar_url} style={{maxWidth: '100px'}}/>
+        <img className='user__avatar' src={this.props.user.avatar_url}/>
         <p><a className='user__link' href={this.props.user.html_url} target='_blank'>{this.props.user.login}</a></p>
       </div>
     );
