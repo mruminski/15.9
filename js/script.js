@@ -23,6 +23,9 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        <h1 className='header'>
+          GitHub user search engine
+        </h1>
         <form className='form' onSubmit={event => this.onSubmit(event)}>
           <label className='form__label' htmlFor='searchText'>Search by user name</label>
           <input
