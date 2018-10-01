@@ -7,7 +7,7 @@ class App extends React.Component {
     };
   }
 
-  onChnageHandle(event) {
+  onChangeHandle(event) {
     this.setState({searchText: event.target.value});
   }
 
